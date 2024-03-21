@@ -18,6 +18,7 @@ class Task(threading.Thread):
         self.join()
         return self._result
 
+#disable_async=False
     
 def asynchronous(fn):
     @wraps(fn)

@@ -11,7 +11,10 @@ def performance(target):
             return result
         finally:
             end_time = time.time()
-            print(f"Time taken {target.__name__}: {end_time - start_time} seconds")
+            a=str(args).replace('(','').replace(')','')
+            k=str(kwargs).replace('{','').replace('}','')
+            s= ',' if len(a)>0 and len(k)>0 else ''
+            print(f"Time taken by {target.__name__}({a}{s}{k}): {end_time - start_time} seconds")
     return wrapper
 
 
