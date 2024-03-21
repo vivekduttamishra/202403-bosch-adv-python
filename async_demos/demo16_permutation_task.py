@@ -1,5 +1,7 @@
 import time
+import threading
 from utils.decorators import performance,log_call
+from utils.threadutils import Task
 
 def factorial(x):
     fx=1
@@ -11,11 +13,14 @@ def factorial(x):
 @performance
 def permutation(n,r):
 
-    fn=factorial(n)
-    
-    fn_r=factorial(n-r)
-    
-    p=fn/fn_r
+    fn=Task(factorial,n)
+
+    fn_r=Task(lambda: factorial(n-r))
+   
+
+    print('waiting for factorial calculatios...')
+   
+    p=fn.result/fn_r.result
     return p
 
 @log_call
@@ -27,6 +32,8 @@ def main():
 
 
 #assignment : bring the performance to "n" seconds by concurrently running two factorial calls
+
+def plus(x,y):return x+y
 
 if __name__ == '__main__':
     main()
