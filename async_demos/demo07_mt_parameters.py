@@ -17,7 +17,6 @@ def main():
     
     t1=threading.Thread(target=count_down, args=(50,25))
     t2=threading.Thread(target=count_down, args=[40])
-
     t3=threading.Thread(target=lambda: count_down(70))
 
     t1.start()
