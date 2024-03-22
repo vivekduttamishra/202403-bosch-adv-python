@@ -20,7 +20,9 @@ def add_author():
 @author.route('/<id>')
 @error_mapper(KeyError, message="Author Not Found")
 def get_author_by_id(id):
+    print(f'get_author_by_id {id=}')
     a= authorManager.get_by_id(id)
+    print(f'{a=}')
     return jsonify(authorManager.get_by_id(id))
     
 

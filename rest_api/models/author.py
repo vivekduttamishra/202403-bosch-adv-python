@@ -54,7 +54,8 @@ class AuthorManager:
         return [author for author in self.authors.values()]
     
     def get_by_id(self, author_id):
-        return self.authors[id] # raises KeyError
+
+        return self.authors[author_id] # raises KeyError
     
     def remove_author(self, id):
         del self.authors[id]
