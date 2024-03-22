@@ -1,0 +1,106 @@
+{
+   "vivek-dutta-mishra": {
+      "id": "vivek-dutta-mishra",
+      "name": "Vivek Dutta Mishra",
+      "biography": "The Author of The Lost Epic series and Manas",
+      "photograph": "vivek.jpg",
+      "tags": [
+         "epic",
+         "indian",
+         "english",
+         "best-seller"
+      ],
+      "meta": {
+         "created": "2024-03-22 15:22:16"
+      }
+   },
+   "mahatma-gandhi": {
+      "id": "mahatma-gandhi",
+      "name": "Mahatma Gandhi",
+      "biography": "The father of the nation for India",
+      "photograph": "gandhi.jpg",
+      "tags": [
+         "leader",
+         "indian",
+         "english",
+         "best-seller"
+      ],
+      "meta": {
+         "created": "2024-03-22 15:22:16"
+      }
+   },
+   "ramdhari-singh-dinkar": {
+      "id": "ramdhari-singh-dinkar",
+      "name": "Ramdhari Sing Dinkar",
+      "biography": "National Poet of India",
+      "photograph": "dinkar.jpg",
+      "tags": [
+         "poetry",
+         "essays",
+         "indian",
+         "hindi"
+      ],
+      "meta": {
+         "created": "2024-03-22 15:22:16"
+      }
+   },
+   "jeffrey-archer": {
+      "id": "jeffrey-archer",
+      "name": "Jeffrey Archer",
+      "biography": "Leading bestseller in English Fiction",
+      "photograph": "archer.jpg",
+      "tags": [
+         "fiction",
+         "british",
+         "english",
+         "best-seller"
+      ],
+      "meta": {
+         "created": "2024-03-22 15:22:16"
+      }
+   },
+   "john-grisham": {
+      "id": "john-grisham",
+      "name": "John Grisham",
+      "biography": "Leading best seller of Legal Fiction",
+      "photograph": "grisham.jpg",
+      "tags": [
+         "legal-fiction",
+         "USA",
+         "english",
+         "best-seller"
+      ],
+      "meta": {
+         "created": "2024-03-22 15:22:16"
+      }
+   },
+   "jkrowling": {
+      "id": "jkrowling",
+      "name": "JK Rowling",
+      "biography": "The author of Harry Potter",
+      "photograph": "jkr.jpg",
+      "tags": [
+         "harry-potter",
+         "british",
+         "english",
+         "best-seller"
+      ],
+      "meta": {
+         "created": "2024-03-22 15:22:16"
+      }
+   },
+   "alexandre-dumas": {
+      "name": "Alexandre Dumas",
+      "biography": "One of the greatest classic author in French",
+      "photograph": "dumas.jpg",
+      "tags": [
+         "french",
+         "classic",
+         "best-seller"
+      ],
+      "meta": {
+         "created": "2024-03-22 15:54:20"
+      },
+      "id": "alexandre-dumas"
+   }
+}
